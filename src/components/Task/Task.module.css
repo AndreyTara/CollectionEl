@@ -1,0 +1,31 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 10px;
+  gap: 10px;
+}
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.number {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn {
+  padding: 5px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px grey;
+  transition: all 500ms ease;
+  &:hover {
+    color: white;
+    background-color: teal;
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+}

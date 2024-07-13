@@ -1,0 +1,8 @@
+.filter {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+}
+.label {
+  font-style: 25px;
+}
